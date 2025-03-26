@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+    <style>
+	body{
+	background-color:#BF3131;
+	}
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #E69DB8;
+           
+        }
+		td{
+		color:#3D0301;
+		background-color:skyblue;
+		}
+		
+        .highlight {
+            background-color: #E69DB8;
+        }
+		th:hover{background-color:#C599B6;}
+		td:hover{background-color:blue;}
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Student Names Table with Rowspan and Colspan</h2>
+
+    <table>
+        <tr>
+            <th rowspan="2">Roll No.</th>
+            <th colspan="2">Student Details</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Rahul</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>IOT</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>Arjun</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>Sneha</td>
+            <td>CIVIL</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td>Aman</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Ritika</td>
+            <td>EE</td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td>Vikas</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>Pooja</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="highlight">Total Students: 10</td>
+        </tr>
+    </table>
+
+</body>
+</html>
